@@ -13,7 +13,8 @@ public class Aplicacao {
 		
 		UsuarioDAO usuarioDAO = new UsuarioDAO();
 		
-		System.out.println("\n\n==== Inserir usuário === ");
+		
+		System.out.println("\n\n==== Inserir usuário === 123");
 		Usuario usuario = new Usuario(11, "pablo", "pablo",'M');
 		if(usuarioDAO.insert(usuario) == true) {
 			System.out.println("Inserção com sucesso -> " + usuario.toString());
